@@ -12,7 +12,7 @@ library(plotly)
 library(ggplot2)
 library(listarrays)
 
-modelo<-load_model_hdf5("C:/Users/Usuario/Desktop/NUEVA APP/modelo.h5")
+modelo<-load_model_hdf5("modelo.h5/")
 
 ui <- navbarPage("Detección e identificación de llamadas de quirópteros",
                  tabPanel("Wav",
